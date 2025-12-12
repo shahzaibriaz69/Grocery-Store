@@ -231,7 +231,7 @@ header .shopping-cart .btn {
 
 .header .login-form h3 {
   font-size: 2.5rem;
-  color: var(--black);
+  color: var(--orange);
   text-transform: uppercase;
 }
 
@@ -268,4 +268,82 @@ header .shopping-cart .btn {
   /* color: var(--orange); */
   cursor: pointer;
   margin-top: 1rem;
+  margin-left: auto;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 30rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 1rem;
+    padding: 2rem;
+    flex-direction: column;
+  }
+
+  .header .navbar.active {
+    right: 2rem;
+    transition: 0.25s ease;
+  }
+
+  .header .navbar a {
+    display: block;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+  }
+
+  .header .search-form {
+    width: 90%;
+  }
+
+  .header .shopping-cart {
+    width: 33rem;
+  }
+
+  .header .login-form {
+    width: 33rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .header {
+    padding: 1.5rem;
+  }
+
+  .header .shopping-cart .box img {
+    height: 7rem;
+  }
+
+  .header .shopping-cart {
+    width: 90%;
+  }
+
+  .header .login-form {
+    width: 90%;
+  }
+
+  .header .navbar {
+    width: 90%;
+  }
 }

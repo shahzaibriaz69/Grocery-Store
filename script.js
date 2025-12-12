@@ -24,3 +24,14 @@ loginBtn.onclick = () => {
   searchForm.classList.remove('active');  
   shoppingCart.classList.remove('active'); 
 };
+
+let menu = document.querySelector('.navbar');
+let menubtn = document.querySelector('#menu-btn');
+
+menubtn.onclick = () => {
+  menu.classList.toggle('active');
+  seachform.classList.remove('active');
+  shoppingCart.classList.remove('active');
+  loginForm.classList.remove('active');
+};
+
