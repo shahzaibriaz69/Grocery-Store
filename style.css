@@ -29,6 +29,10 @@ body {
   background: #f7f7f7;
 }
 
+section {
+  padding: 2rem 9%;
+}
+
 .btn {
   margin: 1rem;
   display: inline-block;
@@ -284,6 +288,10 @@ header .shopping-cart .btn {
   .header {
     padding: 2rem;
   }
+
+  section {
+    padding: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -351,4 +359,42 @@ header .shopping-cart .btn {
   .header .navbar {
     width: 90%;
   }
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(supermarket-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 25rem;
+  padding-bottom: 21rem;
+}
+
+.home .content {
+  text-align: center;
+  width: 60rem;
+  margin-top: 10px;
+}
+
+.home .content h3 {
+  font-size: 3rem;
+  color: rgb(0, 0, 109);
+}
+
+.home .content h3 span {
+  color: var(--orange);
+}
+
+.home .content p {
+  font-size: 1.7rem;
+  color: var(--black);
+  padding: 1rem 0;
+  line-height: 1.9;
+}
+
+.home .content .btn {
+  background-color: var(--orange);
+  color: #fff;
 }
