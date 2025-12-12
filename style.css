@@ -117,7 +117,7 @@ body {
 
 .header .search-form.active {
   right: 2rem;
-  transition: 0.22s linear;
+  transition: 0.32s linear;
 }
 
 .header .search-form input {
@@ -155,7 +155,7 @@ body {
 
 .header .shopping-cart.active {
   right: 2rem;
-  transition: 0.22s linear;
+  transition: 0.32s linear;
 }
 
 .header .shopping-cart .box {
@@ -226,7 +226,7 @@ header .shopping-cart .btn {
 
 .header .login-form.active {
   right: 2rem;
-  transition: 0.22s linear;
+  transition: 0.32s linear;
 }
 
 .header .login-form h3 {
@@ -271,6 +271,11 @@ header .shopping-cart .btn {
   margin-left: auto;
 }
 
+.no-hover:hover {
+  background-color: #eeeeee !important;
+  color: var(--black) !important;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -300,7 +305,7 @@ header .shopping-cart .btn {
 
   .header .navbar.active {
     right: 2rem;
-    transition: 0.25s ease;
+    transition: 0.32s ease;
   }
 
   .header .navbar a {
