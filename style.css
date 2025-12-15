@@ -33,6 +33,21 @@ section {
   padding: 2rem 9%;
 }
 
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--black);
+  padding: 2rem 0;
+}
+
+.heading span {
+  background-color: var(--orange);
+  color: #ffff;
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
 .btn {
   margin: 1rem;
   display: inline-block;
@@ -359,6 +374,10 @@ header .shopping-cart .btn {
   .header .navbar {
     width: 90%;
   }
+
+  .heading {
+    font-size: 2.5rem;
+  }
 }
 
 .home {
@@ -397,4 +416,43 @@ header .shopping-cart .btn {
 .home .content .btn {
   background-color: var(--orange);
   color: #fff;
+}
+
+.feature .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.feature .box {
+  background: #fff;
+  padding: 3rem 1rem;
+  outline: var(--outline);
+  outline-offset: 1rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
+.feature .box:hover {
+  outline: var(--outline-hover);
+  outline-offset: 0rem;
+}
+
+.feature .box img {
+  width: 35rem;
+  height: 25rem;
+  object-fit: contain;
+}
+
+.feature .box h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.feature .box p {
+  font-size: 1.6rem;
+  color: var(--light-color);
+  line-height: 1.8;
 }
