@@ -541,3 +541,50 @@ header .shopping-cart .btn {
   color: var(--light-color);
   padding: 1rem 0;
 }
+
+.reviews .review-slider {
+  padding: 1rem;
+}
+
+.reviews .box {
+  background-color: #fff;
+  border-radius: 3rem;
+  text-align: center;
+  padding: 3rem 2rem;
+  outline-offset: -1rem;
+  outline: var(--outline);
+  box-shadow: var(--box-shadow);
+  transition: 0.2s linear;
+}
+
+.reviews .box:hover {
+  outline: var(--outline-hover);
+  outline-offset: 0rem;
+}
+
+.reviews .box img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.reviews .box p {
+  font-size: 1.6rem;
+  color: var(--light-color);
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+
+.reviews .box h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.reviews .box .stars {
+  font-size: 1.7rem;
+  color: var(--orange);
+  padding: 1rem 0;
+}
